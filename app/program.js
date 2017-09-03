@@ -1,8 +1,7 @@
-var OSinfo = require('../modules/OSinfo');
-
 process.stdin.setEncoding('utf-8');
 
-var version = process.versions.node,
+var OSinfo = require('../modules/OSinfo'),
+    version = process.versions.node,
     language = process.env;
 
 if (language.hasOwnProperty('lang')) {

@@ -20,7 +20,6 @@ function getOSinfo() {
     console.log(`Uptime [hh:mm:ss]: ${time.newTime(uptime)}`);
     console.log(`User name: ${userInfo.username}`);
     console.log(`Home dir: ${userInfo.homedir}\n`);
-
-    //console.log(time.newTime(uptime));
 }
+
 exports.print = getOSinfo;
